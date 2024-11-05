@@ -1,6 +1,5 @@
 from qiskit.circuit.library import ZZFeatureMap, PauliFeatureMap
 from qiskit_machine_learning.kernels import FidelityQuantumKernel
-from qiskit_aer import AerSimulator
 from qiskit_algorithms.utils import algorithm_globals
 
 class QSVM_Kernel:
